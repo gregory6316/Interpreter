@@ -1,0 +1,35 @@
+{
+int a, b, c;
+boolean d, e;
+e = false;
+d = true;
+a = 10 + 10;
+b = 1 * 14 / 7;
+a = a + 5;
+in(c);
+out(a, b);
+out(c);
+out(d);
+out(e);
+if (not e)
+{
+
+	out(a);
+	c = a + b;
+	out(c);
+}
+
+if (e) 
+{
+	out(b);
+}
+else 
+{
+	out(e);
+}
+do 
+{
+	a = a - 5;
+	out(a);
+} while(not(a < b));
+}
